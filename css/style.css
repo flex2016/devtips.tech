@@ -2,3 +2,121 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #f5f3f5;
 }
+
+/*##################################################viewport######################*/
+
+.viewport-80 {
+  min-height: 80vh;
+}
+
+/*###############################banener###################################*/
+
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url(../images/background-banner.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#banner::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgb(212, 218, 226);
+  z-index: -1;
+  bottom: 0;
+  transform-origin: left bottom;
+  transform: skewY(3deg);
+}
+
+#banner .banner-title {
+  font-style: italic;
+}
+
+#banner .banner-link {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 25px;
+  border: 2px solid #255bf1;
+  background-color: transparent;
+  border-radius: 0;
+  color: #255bf1;
+}
+
+
+#banner .banner-link:hover {
+  border: 2px solid #f5f3f5;
+  background-color: #f5f3f5;
+}
+
+
+/*###################title#########*/
+
+.title h1 {
+  color: #161515;
+}
+
+.title h3 {
+  color: #000000;
+}
+
+.title-underline {
+  height: 5px;
+  width: 250px;
+  background: #255bf1;
+  margin: -28px auto 0 auto;
+}
+
+.title a {
+  color: #255bf1;
+  font-size: 30px;
+  padding: 0px 10px;
+  display: inline-block;
+  background: #f1fffa;
+
+}
+
+/*############values##############*/
+
+.value {
+  position: relative
+}
+
+.value-icon {
+  font-size: 60px;
+  color: #f1fffa;
+  background: #242424;
+  padding: 25px 35px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  transition: all 2s ease;
+
+}
+
+.value-number {
+  padding: 15px;
+  background: #255bf1;
+  position: absolute;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 20px;
+  top: -12%;
+  left: 57%;
+  transition: all 2s ease;
+  color: #242424;
+}
+
+.value:hover .value-icon {
+  background: #255bf1;
+  transform: scale(1.2);
+}
+
+.value:hover .value-number {
+  background: #242424;
+  color: #f1fffa;
+  transform: scale(0.9);
+}
