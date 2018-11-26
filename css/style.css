@@ -5,7 +5,7 @@ body {
 
 /*##################################################viewport######################*/
 
-.viewport-80 {
+.viewport-100 {
   min-height: 100vh;
 }
 
@@ -17,8 +17,8 @@ body {
 /*###############################banner###################################*/
 
 #banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url(../images/background-banner.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+  url(../img/3.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -45,10 +45,10 @@ body {
   text-decoration: none;
   font-size: 20px;
   padding: 15px 25px;
-  border: 2px solid #255bf1;
+  border: 2px solid #191d25;
   background-color: transparent;
   border-radius: 0;
-  color: #255bf1;
+  color: #1944c5;
 }
 
 
@@ -125,3 +125,18 @@ body {
   color: #f1fffa;
   transform: scale(0.9);
 }
+
+
+/*############about##############*/
+
+.height-80{
+  min-height:80vh;
+ }
+
+.about-picture{
+  background: url(../img/laptop.jpg)bottom/cover no-repeat fixed;
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+ }
