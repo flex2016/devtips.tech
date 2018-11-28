@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- main css -->
   <link rel="stylesheet" href="css/style.css">
+
   <!--   font awesome -->
   <script src="./js/all.js"></script>
 
@@ -32,10 +33,10 @@
 </head>
 <body>
   <!--	nav-->
-  <nav class="navbar navbar-expand-md fixed-top">
+  <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
     <!-- Brand -->
     <a class="navbar-brand" href="#">
-      <h3>{>Dev/Tips<}</h3>
+      <img src="img/logo.svg" alt="main icon"> {>Dev|Tips>}
     </a>
 
     <!-- Toggler/collapsibe Button -->
@@ -44,10 +45,10 @@
     </button>
 
     <!-- Navbar links -->
-    <div class="collapse navbar-collapse text-light justify-content-end" id="myNavbar">
+    <div class="collapse navbar-collapse  justify-content-end" id="myNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#banner" class="active"><i class="fas fa-home"></i>Home</a>
+          <a class="nav-link" href="#banner" class="active">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#services">Services</a>
@@ -164,6 +165,118 @@
     </div>
   </section>
   <!-- end of about section -->
+  <section id="numbers">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-3 no-padding text-center num d-flex flex-column">
+          <i class="fa fa-user"></i>
+          <span class='numscroller my-3 num-item' data-min='1' data-max='1000' data-delay='1000' data-increment='1'>1000</span>
+          <h4>Users</h4>
+
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 no-padding text-center num d-flex flex-column">
+          <i class="fa fa-university"></i>
+          <span class='numscroller my-3 num-item' data-min='1' data-max='10000' data-delay='500' data-increment='10'>10000</span>
+          <h4>Students</h4>
+
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 no-padding text-center num d-flex flex-column">
+          <i class="fa fa-shopping-basket"></i>
+          <span class='numscroller my-3 num-item' data-min='1' data-max='100000' data-delay='100' data-increment='50'>100000</span>
+          <h3>Orders</h3>
+
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 no-padding text-center num d-flex flex-column">
+          <i class="fa fa-envelope"></i>
+          <span class='numscroller my-3 num-item' data-min='1' data-max='1000000' data-delay='5' data-increment='100'>1000000</span>
+          <h3>Messages</h3>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--	end of team section-->
+
+  <!--##########################team#########################-->
+
+  <section id="team" class="py-5">
+    <div class="container">
+
+      <!--	title row-->
+      <div class="row">
+        <div class="col d-flex title mb-5">
+          <i class="fa fa-users mr-3"></i>
+          <div class="title-text">
+            <h1 class="text-uppercase">Meat our team</h1>
+            <h4 class="text-capitalized text-muted">Lorem ipsum dolor sit amet.</h4>
+          </div>
+        </div>
+      </div>
+      <!--		end of title row-->
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card text-center">
+
+            <img src="img/tarasKurilo.jpg" width="150" alt="" class="img-fluid rounded-circle mx-auto">
+            <div class="card-body">
+              <h2>Taras</h2>
+              <h6>Developer</h6>
+              <hr>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, sint.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-google-plus"></i></a>
+            </div>
+          </div>
+        </div>
+        <!--				end of team col-->
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card text-center">
+
+            <img src="img/ivanPerun.jpg" width="150" alt="" class="img-fluid rounded-circle mx-auto">
+            <div class="card-body">
+              <h2>Ivan</h2>
+              <h6>Developer</h6>
+              <hr>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, sint.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-google-plus"></i></a>
+            </div>
+          </div>
+        </div>
+        <!--				end of team col-->
+        <div class="col-lg-4 col-sm-6 my-5">
+          <div class="card text-center">
+
+            <img src="img/igorPerun.jpg" width="150" alt="" class="img-fluid rounded-circle mx-auto">
+            <div class="card-body">
+              <h2>Igor</h2>
+              <h6>Developer</h6>
+              <hr>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, sint.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-google-plus"></i></a>
+            </div>
+          </div>
+        </div>
+        <!--				end of team col-->
+      </div>
+    </div>
+  </section>
+  <!--#############################end of team#####################-->
+
 
   <!-- contact section -->
   <section id="contact" class="py-5 bg-secondary">
@@ -224,8 +337,6 @@
       <!-- footer section -->
   <footer id="footer" class="bg-dark py-5">
     <div class="container">
-
-      <!-- end of section-title -->
       <div class="row">
         <div class="col text-center">
           <a href="#" class="btn">
