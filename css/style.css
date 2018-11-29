@@ -83,6 +83,10 @@ body {
 
 }
 
+.title .title-text {
+  padding-left: 15px;
+  border-left: 3px solid #ced0ce;
+}
 
 /*############values##############*/
 
@@ -159,9 +163,7 @@ body {
   font-size: 30px;
 }
 
-#numbers .fa {
-  font-size: 60px;
-}
+
 
 /*#####################team#################################*/
 
@@ -169,17 +171,6 @@ body {
   margin-top: -50px;
 }
 
-
 #team .card hr {
-  background-color: #f15025;
-}
-
-
-#team .card .fa {
-  color: #f15025;
-  font-size: 30px;
-}
-
-#team .card .fa:hover {
-  color: #242a33;
+  background-color: #1944c5;
 }
